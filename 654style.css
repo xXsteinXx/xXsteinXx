@@ -1,16 +1,44 @@
 #page {
-    background-image: url(https://github.com/astrosteiner/astrosteiner.github.io/blob/main/photo/me.png?raw=true);
+    background-image: url(https://github.com/xXsteinXx/xXsteinXx/blob/main/654pics/greenscreen.jpg?raw=true);
     background-size: cover;
     height: 790px;
 }
 
-#text {
-    color: rgb(43, 43, 43);
+h1 {
+    color: rgba(96, 255, 167, 0.145);
 }
 
-li {
+.text {
+    font-size: large;
+    margin-top: 4rem;
+    padding: 2px;
+    color: #53e48b;
+    text-shadow: 2px 2px #0000005a;
+    font-family: "OpenDyslexic", Arial, sans-serif; 
+    text-align: center;
+    background-color: #0000003b;
+    box-shadow: 0px 0px 5px #0000003b;
+}
+
+.comictext {
+    font-size: large;
+    margin-top: 4rem;
+    padding: 2px;
+    color: #53e48b;
+    text-shadow: 2px 2px #0000005a;
+    font-family: "OpenDyslexic", Arial, sans-serif; 
+    text-align: center;
+    background-color: #0000003b;
+    box-shadow: 0px 0px 5px #0000003b;
+}
+
+#leftbartext {
     color: rgb(43, 43, 43);
-    /* font-size: 20px; */
+    list-style-type: none;
+    margin: 1rem;
+    font-size: 18px;
+    font-family: "Lucida Console", "Courier New", monospace;
+    text-shadow: -2px -2px #0000005a;
 }
 
 .bkg {
@@ -31,10 +59,11 @@ li {
 .leftbar {
     position: absolute;
     padding: .5rem;
-    left: 2rem;
+    left: 4rem;
     width: 10rem;
-    background-color: #636363;
+    background-color: #63636300;
     text-align: left;
+    margin-top: 5rem;
 
 }
 
@@ -44,8 +73,12 @@ li {
     left: 15rem;
     width: 70%;
     /* height: 30rem; */
-    background-color: #979797; 
-    text-align: justify;  
+    background-color: #97979700; 
+    text-align: justify;
+}
+
+a {
+    color: #28FF79;
 }
 
 iframe {
@@ -55,7 +88,21 @@ iframe {
     height:40rem;
 }
 
-/* Sourced from W3 */
+.cvbkg {
+    background-color: #33683b;
+    padding: 1rem;
+}
+
+#comics {
+    text-align: center;
+}
+
+ol {
+    display: inline-block;
+    text-align: left;
+}
+
+/* table sourced from W3 */
 table {
     border-collapse: collapse;
     width: 100%;
@@ -68,5 +115,43 @@ td, th {
 }
   
 tr:nth-child(even) {
-    background-color: #7e7e7e;
+    background-color: #00000035;
+}
+
+.artframe {
+    background-color: #00000000;
+    font-family: "Lucida Console", "Courier New", monospace;
+    scrollbar-color: #000000;
+}
+
+.artnav, .arttext {
+    border:#00000000;
+    text-align: center;
+    font-size: 20px;
+    font-family: "Lucida Console", "Courier New", monospace;
+    text-shadow: -2px -2px #0000005a;
+}
+
+.paint {
+    justify-content: center;
+}
+
+img {
+    width: 80%;
+    margin: 2rem;
+    margin-left: 5rem;
+    /* box-shadow: 2px 2px 5px #0000005a; */
+}
+
+footer {
+    position: absolute;
+    width: 100%;
+    bottom: -20px;
+}
+
+.foottext {
+    font-size: medium;
+    color: #53e48b6d;
+    font-family: "OpenDyslexic", Arial, sans-serif; 
+    text-align: center;
 }
